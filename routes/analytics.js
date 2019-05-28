@@ -4,8 +4,8 @@ const controller = require('../controllers/analytics')
 
 const router = express.Router()
 
-router.get('/login', controller.overview)
-router.get('/register', controller.anaylytics)
+router.get('/overview', controller.overview)
+router.get('/analytics', controller.anaylytics)
 
 
 module.exports = router
